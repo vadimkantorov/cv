@@ -1,0 +1,115 @@
+% ProfessionalCV template of Alessandro from sharelatex
+
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,bottom=1cm,top=2cm]{geometry}
+
+%\usepackage{marvosym}
+%\usepackage{fontspec}
+%\usepackage{xunicode}
+%\usepackage{xltxtra}
+%\usepackage{url}
+\usepackage{parskip}
+\usepackage{xcolor}
+%\usepackage{graphicx}
+%\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage[bottom,symbol,flushmargin,norule]{footmisc}
+%\usepackage{makecell}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\setlength{\textwidth}{440pt}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{0pt}
+%\addtolength{\voffset}{-2cm}
+
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\pagestyle{empty}
+%\begin{minipage}{0.72\linewidth}
+%\par{\Huge{Cover Letter}\bigskip}\par
+%I am interested in learning high-level compositional and relational representations for vision and language (e.g. object-centric, graph representations of images and videos). One promise of this research direction is more explainable and robust methods. This requires a mix of discrete and continuous representations and various flavors of unsupervised and reinforcement learning to learn these representations. I believe MSR AI has a great set of people to advance this research program.
+%\end{minipage}
+%\newpage
+
+\begin{minipage}{0.72\linewidth}
+\par{\Huge{Vadim Kantorov}\bigskip}\par
+\begin{tabular}{rl}
+    \textsc{Languages} & English, French, Russian\footnotemark\\ % TOEFL 109, 01/10/2011, CAE, DALF C1
+    \textsc{Email}     & \href{mailto:vadimkantorov@gmail.com}{vadimkantorov@gmail.com} \\
+    \textsc{Scholar} & \href{https://scholar.google.fr/citations?user=pEDJ-8cAAAAJ}{https://scholar.google.fr/citations?user=pEDJ-8cAAAAJ} \\
+    \textsc{GitHub} & \href{https://github.com/vadimkantorov}{https://github.com/vadimkantorov} \\
+    \textsc{LinkedIn} & \href{https://linkedin.com/in/vadimkantorov}{https://linkedin.com/in/vadimkantorov} \\
+    %\textsc{Phone}     & +33603292769\\
+    \textsc{Location}   & Paris, France; open to relocate \\
+\end{tabular}
+\end{minipage}
+
+\bigskip\bigskip
+
+\section{Research Interests}
+Weakly supervised and unsupervised learning; learning compositional representations for images and language; relational learning
+
+\section{Publications \texorpdfstring{\hfill \footnotesize{pdf at \href{http://vadimkantorov.com}{vadimkantorov.com}}}{}}
+\begin{tabular}{ll}
+    \\2016\phantom{+} & \textbf{\href{http://arxiv.org/pdf/1609.04331.pdf}{Context-aware deep network models for
+weakly supervised object localization}} \\
+    & Vadim Kantorov, Maxime Oquab, Minsu Cho, Ivan Laptev \\
+    & \textsc{ECCV 2016}\\
+
+    \\2014 & \textbf{\href{http://www.di.ens.fr/willow/research/fastvideofeat/paper/cvpr2014_kantorov_paper.pdf}{Efficient feature extraction, encoding and classification for action recognition}} \\
+    & Vadim Kantorov, Ivan Laptev \\
+    & \textsc{CVPR 2014}\\
+    
+    \\2012 & \textbf{Evaluating MPEG compressed domain features for
+action recognition}\\
+    & Master thesis\\
+    
+    \\2011 & \textbf{Automatically assessing content quality in community question answering sites}\\
+    & Bachelor thesis
+\end{tabular}
+
+\section{Education}
+\begin{tabular}{ll}
+    2012+ & PhD student in Computer Vision at \href{http://www.di.ens.fr/willow/}{WILLOW lab} (currently on leave)\\
+    & \textsc{Ecole Normale Superieure / INRIA}, France\\
+    
+    \\2017 & Visiting student at \href{http://cvlab.postech.ac.kr/lab}{CV lab}\\
+    & \textsc{POSTECH}, South Korea\\
+        
+    \\2012 & Master of Science in Applied Mathematics, Machine Learning and Computer Vision (\href{http://www.cmla.ens-cachan.fr/version-anglaise/academics/mva-master-degree-227777.kjsp}{MVA})\\
+    & \textsc{ENS Cachan}, France\\
+
+    \\2011& Bachelor of Computer Science\\
+    & \textsc{Ural Federal University}, Russia\\
+\end{tabular}
+
+\section{Work Experience \texorpdfstring{\hfill \footnotesize{complete list on \href{http://linkedin.com/in/vadimkantorov}{linkedin.com/in/vadimkantorov}}}{}}
+\begin{tabular}{lp{11cm}}
+    2019\phantom{+} & Senior Machine Learning Engineer at \textsc{SKB Kontur}, SRS\\
+    & \footnotesize{I implemented a state-of-the-art convolutional phone call speech recognition system for the Russian language}\\
+    
+    %\\2018 & Project Lead at \textsc{schitaytesami.live}\\
+    %& \footnotesize{I developed a video annotation crowd-sourcing site and led the project for analysis of election fraud in Russia.}\\
+    \\2011 & Intern at \textsc{Microsoft}, AdCenter\\
+    & \footnotesize{I evaluated a relevance model for display ads based on click streams. My code was running on a MapReduce cluster manipulating terabytes of data.}\\
+    
+    \\2010 & Intern at \textsc{Microsoft}, Forefront Online Protection for Exchange\\
+    %& \footnotesize{I experimented with Reactive Extensions for building an asynchronous admin UI.}
+
+\end{tabular}
+
+\section{Technical Skills}
+Python, C++, PyTorch, NumPy, JupyterLab, MATLAB, Linux, Git, LaTeX, C\#, Lua
+
+\footnotetext{citizen of France and Russia; can be authorized to work in Israel}
+\end{document}
